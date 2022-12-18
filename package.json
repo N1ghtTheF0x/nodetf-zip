@@ -1,0 +1,21 @@
+{
+    "name": "@nodetf/zip",
+    "version": "1.0.0",
+    "description": ".zip file parser",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "ts-node test.ts",
+        "prebuild": "npm run clean",
+        "build": "tsc --build",
+        "clean": "tsc --build --clean"
+    },
+    "author": "N1ghtTheF0x",
+    "license": "MIT",
+    "devDependencies": {
+        "ts-node": "latest",
+        "typescript": "latest"
+    },
+    "dependencies": {
+        "@nodetf/buffer": "github:N1ghtTheF0x/nodetf-buffer"
+    }
+}
